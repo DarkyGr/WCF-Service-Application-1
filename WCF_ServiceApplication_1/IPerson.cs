@@ -14,12 +14,7 @@ namespace WCF_ServiceApplication_1
     {
 
         [OperationContract]
-        string GetData(int value);
-
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
-
-        // TODO: Add your service operations here
+        
     }
 
 
