@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using WCF_ServiceApplication_1.Model;
 
 namespace WCF_ServiceApplication_1
 {
@@ -14,6 +15,7 @@ namespace WCF_ServiceApplication_1
     {
 
         [OperationContract]
+        IEnumerable<Person> Consult();
         
     }
 
