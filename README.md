@@ -2,3 +2,4 @@
 
 This app was made with:
 - .NET Framework 4.8
+- ADO.NET 
